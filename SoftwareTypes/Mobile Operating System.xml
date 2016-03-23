@@ -77,7 +77,7 @@
 		<Dependencies>
 		</Dependencies>
 	</Feature>
-	<Feature From="Mobile Keyboard Input" Vital="TRUE">
+	<Feature Vital="TRUE">
 		<Name>Plug'n'Play</Name>
 		<Category>System</Category>
 		<Unlock>1985</Unlock>
@@ -90,7 +90,7 @@
 		<Dependencies>
 		</Dependencies>
     </Feature>
-	<Feature From="Mobile Keyboard Input" Vital="TRUE">
+	<Feature Vital="TRUE">
 		<Name>Bluetooth Keyboard</Name>
 		<Category>System</Category>
 		<Category>Bluetooth</Category>
@@ -142,7 +142,7 @@
 			<Dependencies>
 			</Dependencies>
 		</Feature>
-	<Feature From="Manual Update">
+		<Feature>
 			<Name>Auto-update</Name>
 			<Unlock>1995</Unlock>
 			<Description>Keep bugs and malware out, while annoying users with broken drivers and sudden restarts don't.</Description>
