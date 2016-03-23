@@ -1,0 +1,85 @@
+<SoftwareType>
+	<Name>Antivirus</Name>
+	<Category>Protection</Category>
+	<Description>Protecting computers from digital troublemakers since it became profitable to do so.</Description>
+	<Random>0.3</Random>
+	<Categories>
+		<Category Name="Antivirus">
+			<Description>All virus' are destroyed by this category.
+			</Description>
+			<Popularity>0.4</Popularity>
+			<Retention>0.9</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>0.75</Iterative>
+		</Category>
+	</Categories>
+	<Popularity>0.7</Popularity>
+	<OSSpecific>True</OSSpecific>
+	<OneClient>False</OneClient>
+	<InHouse>False</InHouse>
+	<Unlock>1985</Unlock>
+	<NameGenerator>Antivirus</NameGenerator>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>File scan</Name>
+			<Description></Description>
+			<DevTime>4</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Dependencies>
+				<Dependency>Visual Tool</Dependency>
+			</Dependencies>
+		</Feature>
+		<Feature>
+			<Name>Firewall</Name>
+			<Unlock>1990</Unlock>
+			<Description></Description>
+			<DevTime>6</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>2</Stability>
+			<CodeArt>0.5</CodeArt>
+				<Dependencies> Software="Operating System">Networking</Dependencies>
+		</Feature>
+		<Feature>
+			<Name>Background scan</Name>
+			<Description>Scan for viruses in the background causing hilarious file locks randomly</Description>
+			<DevTime>2</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Dependencies>
+				<Dependency Software="Operating System">Multithreading</Dependency>
+			</Dependencies>
+		</Feature>
+		<Feature>
+			<Name>Mail scan</Name>
+			<Description>There's always room for enlargement</Description>
+			<DevTime>4</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Dependencies>
+				<Dependency Software="Operating System">Networking</Dependency>
+			</Dependencies>
+		</Feature>
+		<Feature>
+			<Name>Virus database</Name>
+			<Unlock>1995</Unlock>
+			<Description>Automagically keep your user's virus definitions up to date</Description>
+			<DevTime>8</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>2</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Server>0.75</Server>
+			<Dependencies>
+				<Dependency Software="Operating System">Networking</Dependency>
+			</Dependencies>
+		</Feature>
+	</Features>
+</SoftwareType>
